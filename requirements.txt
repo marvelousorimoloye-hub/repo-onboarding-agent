@@ -1,0 +1,19 @@
+# Phase 0 (in use now)
+psycopg2-binary>=2.9
+groq>=0.11
+google-genai>=0.3
+python-dotenv>=1.0
+
+# Phase 1 (in use now)
+tree-sitter>=0.23
+tree-sitter-python>=0.23
+tree-sitter-typescript>=0.23
+PyYAML>=6.0
+
+# Phase 2 (in use now)
+pgvector>=0.3
+requests>=2.31
+
+# Later phases (declared now, not yet used by any implemented code)
+langgraph>=0.2
+langgraph-checkpoint-postgres>=1.0

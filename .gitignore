@@ -1,0 +1,23 @@
+# Environment / secrets — NEVER commit this, it has your API keys and DB password
+.env
+
+# Python
+__pycache__/
+*.pyc
+venv/
+*.egg-info/
+
+# Cloned/mapped target repos — working data this product generates at
+# runtime, not part of the product's own source
+repo_cache/
+
+# Synthetic cross-repo test fixtures — reproducible via
+# setup_cross_repo_fixtures.py, no need to version the generated output
+# (also: each fixture has its own nested .git folder, which git treats
+# oddly if committed as part of a parent repo)
+cross_repo_fixtures/
+cross_repo_links.yaml
+
+# OS cruft
+.DS_Store
+Thumbs.db
